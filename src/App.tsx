@@ -36,10 +36,16 @@ const object = backpack.get();
 
 backpack.add('Hans');
 
+// This is an industrial-grade general-purpose greeter function:
+function greet(person, date: Date) {
+  console.log(`Hello ${person}, today is ${date}!`);
+}
+
+greet("Brendan", new Date);
+
 
 function App() {
 
-  let helloWorld = "Hello World";
 
   return (
     <div className="App">
